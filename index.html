@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/favi.png" type="image/png">
+  <title>Portfolio - Aaron Varughese Bino</title>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link href="css/resume.min.css" rel="stylesheet">
+  <style>
+    #loader {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    #loader video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    #content {
+      display: none;
+    }
+
+    .logo {
+      width: 150px;
+      height: auto;
+      border: none;
+    }
+
+    #logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    @media (max-width: 768px) {
+      .navbar-nav {
+        text-align: center;
+      }
+      .navbar-toggler {
+        margin: 0 auto;
+      }
+      .logo {
+        width: 100px;
+      }
+      #logo-container {
+        height: 80px;
+      }
+      .content {
+        padding: 10px;
+      }
+      .resume-section {
+        padding: 1rem;
+      }
+      footer {
+        padding: 1rem;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body id="page-top">
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <video autoplay muted playsinline>
+      <source src="vids/log.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Main Content -->
+  <div id="content" class="bg-animation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <header>
+        <div id="logo-container">
+          <img src="vids/Avlogg.gif" alt="Logo" class="logo">
+        </div>
+      </header>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <!-- About Section -->
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Aaron <span class="text-primary">Varughese Bino</span></h1>
+          <div class="subheading mb-5">Ranni · Pathanamthitta, PO 689675 · +91-7012286659 · <a href="mailto:aaronvarughesebino@gmail.com">aaronvarughesebino@gmail.com</a></div>
+          <p class="mb-5">I'm a Computer Science graduate passionate about Data Analysis, UI/UX Design, and Web Development. I enjoy turning data into actionable insights and creating user-friendly digital experiences. I thrive on collaboration and continuous learning, aiming to build impactful, user-centric solutions. Let's connect and create together!</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item"><a href="https://www.facebook.com/aaron.varughese.7"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/_44ron_ft/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/aaron-varughese-bino-2076b7219/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+            <li class="list-inline-item"><a href="https://github.com/aaronvarughese"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="text-primary mb-5">Experience</h2>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">Data Analyst Intern</h3>
+              <div class="subheading mb-3">ABC Corp</div>
+              <p>Analyzed and visualized data to provide actionable insights for business decisions. Worked with teams to streamline data processes and improve reporting.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2022 - August 2022</span>
+            </div>
+          </div>
+          <!-- More experience items can be added here -->
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="text-primary mb-5">Education</h2>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">Bachelor of Science in Computer Science</h3>
+              <div class="subheading mb-3">XYZ University</div>
+              <p>Specialized in Data Analysis and Web Development. Achieved a GPA of 3.8 and completed multiple projects in data science and UI/UX design.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2018 - 2022</span>
+            </div>
+          </div>
+          <!-- More education items can be added here -->
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="text-primary mb-5">Skills</h2>
+          <ul class="list-unstyled">
+            <li>Data Analysis</li>
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+            <li>Python, JavaScript, HTML/CSS</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Resume Section -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="resume">
+        <div class="my-auto">
+          <h2 class="text-primary mb-5">Resume</h2>
+          <p>Download my resume from the following link:</p>
+          <a href="files/resume.pdf" class="btn btn-primary">Download Resume</a>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+        <div class="my-auto">
+          <h2 class="text-primary mb-5">Contact</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2024 Aaron Varughese Bino. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+      document.getElementById('loader').style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+    });
+  </script>
+</body>
+</html>
